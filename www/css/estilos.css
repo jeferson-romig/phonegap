@@ -1,0 +1,21 @@
+.rodape {
+    min-height: 20px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    filter: alpha(opacity=70); /* internet explorer */
+    -khtml-opacity: 0.7; /* khtml, old safari */
+    -moz-opacity: 0.7; /* mozilla, netscape */
+    opacity: 0.7;
+    border: 0px solid rgb(227, 227, 227);
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) inset;
+    bottom: 0px;
+    display: block;
+    position: fixed;
+}
+.rodape-label {
+    color: rgb(50, 50, 50); 
+    font-size: 12px; 
+    font-family: 'Helvetica Neue','Helvetica','Arial','sans-serif';
+}
